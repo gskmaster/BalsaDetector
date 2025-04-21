@@ -6,7 +6,7 @@ from roboflow import Roboflow
 import tempfile
 
 # Initialize Roboflow
-rf = Roboflow(api_key="9T8zDm97SGYJGfcidwAX")
+rf = Roboflow(api_key="rf_6FMAyQeoITd6k84sOEisvciHVPo1")
 project = rf.workspace().project("wood-defect-detector")
 model = project.version(1).model
 
