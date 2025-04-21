@@ -3,3 +3,5 @@ primaryColor = "#6c9a8b"
 backgroundColor = "#f4f4f4"
 secondaryBackgroundColor = "#e0e0e0"
 textColor = "#000000"
+[api]
+roboflow_key = "9T8zDm97SGYJGfcidwAX"
