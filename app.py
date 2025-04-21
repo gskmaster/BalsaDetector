@@ -7,7 +7,7 @@ import tempfile
 
 # Initialize Roboflow
 rf = Roboflow(api_key="9T8zDm97SGYJGfcidwAX")
-project = rf.workspace().project("wood-defect-detector")
+project = rf.workspace("gbi").project("balsa-defect-detector")
 model = project.version(1).model
 
 st.set_page_config(page_title="Wood Block Scanner", layout="centered")
